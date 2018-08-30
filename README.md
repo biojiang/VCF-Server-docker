@@ -9,4 +9,4 @@
 
 
 # More advanced usage
-$ docker build -t vcfserver:1.0 .
+`docker build -t vcfserver:1.0 .`
