@@ -1,7 +1,11 @@
 # Getting VCF-Server started with [Docker](https://www.docker.com/)
 ---
-Type this into your commandline
+<p>Type this into your commandline<\P>
 `docker run -d -p 8000:9000 jiangjp880123/vcf-server`
-Dockerfile and related files for VCF-Server
-# Build Dockerfile
+
+<p>Relevant links:</p>
+[VCF-Server Homepage](https://www.diseasegps.org/VCF-Server)
+
+
+# More advanced usage
 $ docker build -t vcfserver:1.0 .
