@@ -11,5 +11,6 @@
 
 
 # More advanced usage
-<p>Build from Dockerfile</p>
+Build from Dockerfile:   
+
 `docker build -t vcfserver:1.0 .`
