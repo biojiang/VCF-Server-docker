@@ -3,6 +3,7 @@
 
 `mkdir data`   
 `docker run -d -p 8000:9000 -v ${PWD}/data:data jiangjp880123/vcf-server`   
+<p>Then visit http://localhost:8000</p>
 
 <p>Relevant links:</p>
 
