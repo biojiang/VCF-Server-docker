@@ -11,4 +11,5 @@
 
 
 # More advanced usage
+<p>Build from dockerbuild file</p>
 `docker build -t vcfserver:1.0 .`
