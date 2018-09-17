@@ -1,8 +1,8 @@
 # Getting VCF-Server started with [Docker](https://www.docker.com/)
 <p>Type this into your commandline</p>
 
-<p>`mkdir data`</p>
-<p> `docker run -d -p 8000:9000 -v ${PWD}/data:data jiangjp880123/vcf-server`</p>
+`mkdir data`
+`docker run -d -p 8000:9000 -v ${PWD}/data:data jiangjp880123/vcf-server`
 
 <p>Relevant links:</p>
 
