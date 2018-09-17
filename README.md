@@ -12,11 +12,11 @@
 
 # More advanced usage
 
-<p>Store data on local</p>
+<p>Store data on local:</p>
 
 `mkdir data`   
 `docker run -d -p 8000:9000 -v ${PWD}/data:data jiangjp880123/vcf-server`   
 
-Build from Dockerfile:   
+<p>Build from Dockerfile: </p>
 
-`docker build -t vcfserver:1.0 .`
+`docker build -t vcfserver .`
