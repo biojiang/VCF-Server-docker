@@ -97,6 +97,7 @@ RUN cd ~ \
 #install supervisor
 RUN apt-get update && apt-get install -qy --force-yes supervisor && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+
 #clone VCF-Server
 RUN cd ~ && git clone https://github.com/biojiang/VCF-Server.git
 RUN cd ~/VCF-Server && npm install
@@ -109,12 +110,13 @@ ADD VCF-Server.tar.gz /usr/local/apache2/cgi-bin/
 COPY httpd.conf /usr/local/apache2/conf/
 ADD user.txt /etc/user.txt
 ADD supervisord.conf /etc/supervisord.conf
-RUN mkdir -p /data/users/admin/ && mkdir -p /data/users/public/example && mkdir -p /data/logs
+#RUN mkdir -p /data/users/admin/ && mkdir -p /data/users/public/example && mkdir -p /data/logs/
+RUN mkdir /data
+VOLUME /data
 
 #mongodb data path
-RUN mkdir -p /data/db /data/configdb \
-        && chown -R mongodb:mongodb /data/db /data/configdb
-VOLUME /data/db /data/configdb
+#RUN mkdir -p /data/db /data/configdb && chown -R mongodb:mongodb /data/db /data/configdb
+#VOLUME /data/db /data/configdb
 
 
 #run application
