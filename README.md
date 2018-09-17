@@ -13,6 +13,7 @@
 # More advanced usage
 
 <p>Store data on local</p>
+
 `mkdir data`   
 `docker run -d -p 8000:9000 -v ${PWD}/data:data jiangjp880123/vcf-server`   
 
