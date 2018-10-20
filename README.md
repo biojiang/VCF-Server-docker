@@ -5,6 +5,7 @@
 
 <p>Then visit http://localhost:8000</p>
 <p>Default admin account: admin/admin</p>
+<p>Default public account: public/public</p>
 
 <p>Relevant links:</p>
 
