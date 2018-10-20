@@ -4,6 +4,7 @@
 `docker run -d -p 8000:9000 jiangjp880123/vcf-server`   
 
 <p>Then visit http://localhost:8000</p>
+<p>Default admin account: admin/admin</p>
 
 <p>Relevant links:</p>
 
