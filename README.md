@@ -9,7 +9,7 @@
 
 <p>Relevant links:</p>
 
-[VCF-Server Homepage](https://www.diseasegps.org/VCF-Server?lan=eng)
+[VCF-Server Homepage](http://diseasegps.sjtu.edu.cn/VCF-Server?lan=eng)
 
 
 # More advanced usage
