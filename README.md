@@ -9,8 +9,9 @@
 
 <p>Relevant links:</p>
 
-<p>[VCF-Server Homepage](http://diseasegps.sjtu.edu.cn/VCF-Server?lan=eng)</p>
-<p>[VCF-Server Dockerhub](https://hub.docker.com/repository/docker/jiangjp880123/vcf-server)</p>
+[VCF-Server Homepage](http://diseasegps.sjtu.edu.cn/VCF-Server?lan=eng)
+
+[VCF-Server Dockerhub](https://hub.docker.com/repository/docker/jiangjp880123/vcf-server)
 
 # More advanced usage
 
