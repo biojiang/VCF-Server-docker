@@ -66,7 +66,7 @@ RUN cd ~ && git clone https://github.com/biojiang/VCF-Server.git
 RUN cd ~/VCF-Server && npm install
 
 #remove dev tools
-RUN apt-get purge -y --auto-remove wget git curl cpanminus 
+RUN apt-get purge -y --auto-remove wget git curl
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 #import data
 
